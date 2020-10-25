@@ -1,0 +1,189 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: DM Sans;
+  margin: 0em;
+  color: #1e324a;
+}
+
+a{
+  text-align: center;
+  color: #d5e0ed;
+  font-size: 20px;
+  margin: 0em;
+}
+
+a:hover{
+  color:#40d6f7;
+}
+
+
+h1{
+  font-size: 88px;
+  color: #d5e0ed;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  color: #1a3452;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 50px;
+  color:#d5e0ed;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h4{
+ font-size: 50px;
+  color: #1a3452;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  text-align: center;}
+
+p{
+  text-align: center;
+  color: #d5e0ed;
+  font-size: 20px;
+  margin: 0em;
+}
+
+p2{
+  font-size: 35px;
+  color: #e88964;
+  
+}
+p3{
+  font-size: 25px;
+}
+
+p4{
+  font-size: 20px;
+}
+
+p5{
+  font-size: 25px;
+  color: #d5e0ed
+}
+
+p6{
+  font-size: 20px;
+  color: #d5e0ed
+}
+img{
+  border-radius:50%;
+}
+
+section {
+  width: 100%;
+  padding: 10px;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+}
+
+.intro{
+  background-color: #1a3452;
+  margin: 100;
+}
+
+.currently{
+  background-color: #d5e0ed;
+  height: 50vh
+}
+
+.activities{
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 3rem;
+}
+
+.resume{
+  background-color: #1a3452;
+}
+
+.contact {
+  background-color: #d5e0ed;
+  height: 0vh;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+  text-align: center;
+
+}
+
+.form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #1a3452;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+
+}
+
+input[type=text] { 
+  font-family: DM Sans;
+  width: 50%;
+  padding: 5px 5px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #97a9bf;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+textarea[name=message] {
+  font-family: DM Sans;
+  width: 100%;
+  padding: 5px 5px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #97a9bf;
+  background-color: rgba(255, 255, 255, 0);
+  resize: none;
+}
+
+button[type=submit] {
+  font-family: DM Sans;
+  font-size: 15px;
+  background-color: #1a3452;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+}
+footer{
+  background-color: #1a3452
+}
+/* 
+input[type=text]:focus {
+  border: white;
+  border-bottom: green;
+}
+ */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
